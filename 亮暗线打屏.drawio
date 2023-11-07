@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-07T06:03:37.664Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="Jlvvv4N3jdNBfdz2PJeN" version="21.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-07T06:14:10.827Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="t-b0gLbXecoBk8e7hd1E" version="21.7.4" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="1434" dy="1608" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1793" dy="1798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -15,7 +15,7 @@
         </mxCell>
         <mxCell id="mNHMmP-ql1NOhLnxiosb-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="77e6c97f196da883-2">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="79.5" y="680" as="targetPoint" />
+            <mxPoint x="80" y="800" as="targetPoint" />
             <mxPoint x="79.5" y="130" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="79.5" y="670" />
@@ -29,7 +29,7 @@
             <mxPoint x="80" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mNHMmP-ql1NOhLnxiosb-121" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mNHMmP-ql1NOhLnxiosb-120">
+        <mxCell id="mNHMmP-ql1NOhLnxiosb-121" value="请求打屏文件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mNHMmP-ql1NOhLnxiosb-120">
           <mxGeometry x="-0.275" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -50,12 +50,27 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="mNHMmP-ql1NOhLnxiosb-156" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="77e6c97f196da883-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="480" as="sourcePoint" />
+            <mxPoint x="80" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="40" y="480" />
+              <mxPoint x="40" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mNHMmP-ql1NOhLnxiosb-157" value="计算" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mNHMmP-ql1NOhLnxiosb-156">
+          <mxGeometry x="-0.0625" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="77e6c97f196da883-3" value="屏老板App" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="160" y="20" width="160" height="730" as="geometry" />
         </mxCell>
         <mxCell id="mNHMmP-ql1NOhLnxiosb-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="77e6c97f196da883-3" source="77e6c97f196da883-8">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="80" y="680" as="targetPoint" />
+            <mxPoint x="80" y="790" as="targetPoint" />
             <Array as="points">
               <mxPoint x="80" y="670" />
               <mxPoint x="80" y="670" />
@@ -65,6 +80,54 @@
         <mxCell id="77e6c97f196da883-8" value="App" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-3" vertex="1">
           <mxGeometry x="30" y="70" width="100" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="mNHMmP-ql1NOhLnxiosb-138" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="77e6c97f196da883-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-80" y="230" as="sourcePoint" />
+            <mxPoint x="80" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mNHMmP-ql1NOhLnxiosb-139" value="打屏文件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mNHMmP-ql1NOhLnxiosb-138">
+          <mxGeometry x="-0.4125" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mNHMmP-ql1NOhLnxiosb-145" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="77e6c97f196da883-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="460" as="sourcePoint" />
+            <mxPoint x="-80" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mNHMmP-ql1NOhLnxiosb-146" value="提供打屏拍照" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mNHMmP-ql1NOhLnxiosb-145">
+          <mxGeometry x="0.1918" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mNHMmP-ql1NOhLnxiosb-136" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="77e6c97f196da883-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-80" y="550" as="sourcePoint" />
+            <mxPoint x="80" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mNHMmP-ql1NOhLnxiosb-137" value="生成校正系数" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mNHMmP-ql1NOhLnxiosb-136">
+          <mxGeometry x="-0.4125" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mNHMmP-ql1NOhLnxiosb-171" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="77e6c97f196da883-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="670" as="sourcePoint" />
+            <mxPoint x="80" y="760" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="110" y="670" />
+              <mxPoint x="110" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mNHMmP-ql1NOhLnxiosb-172" value="用户观察校正效果&lt;br&gt;按需迭代" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mNHMmP-ql1NOhLnxiosb-171">
+          <mxGeometry x="0.04" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="77e6c97f196da883-4" value="TU Android" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="320" y="20" width="160" height="730" as="geometry" />
         </mxCell>
@@ -73,7 +136,7 @@
         </mxCell>
         <mxCell id="mNHMmP-ql1NOhLnxiosb-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="77e6c97f196da883-4">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="79.5" y="680" as="targetPoint" />
+            <mxPoint x="80" y="790" as="targetPoint" />
             <mxPoint x="79.5" y="130" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="79.5" y="670" />
@@ -83,12 +146,45 @@
         </mxCell>
         <mxCell id="mNHMmP-ql1NOhLnxiosb-104" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="77e6c97f196da883-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-80" y="230" as="sourcePoint" />
-            <mxPoint x="80" y="230" as="targetPoint" />
+            <mxPoint x="-80" y="250" as="sourcePoint" />
+            <mxPoint x="80" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="mNHMmP-ql1NOhLnxiosb-105" value="硬件打屏" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mNHMmP-ql1NOhLnxiosb-104">
           <mxGeometry x="-0.4125" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mNHMmP-ql1NOhLnxiosb-162" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="77e6c97f196da883-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-80" y="580" as="sourcePoint" />
+            <mxPoint x="80" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mNHMmP-ql1NOhLnxiosb-163" value="校正" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mNHMmP-ql1NOhLnxiosb-162">
+          <mxGeometry x="-0.4125" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mNHMmP-ql1NOhLnxiosb-164" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="77e6c97f196da883-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="613" as="sourcePoint" />
+            <mxPoint x="250" y="613" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mNHMmP-ql1NOhLnxiosb-165" value="校正" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mNHMmP-ql1NOhLnxiosb-164">
+          <mxGeometry x="-0.4125" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mNHMmP-ql1NOhLnxiosb-169" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="77e6c97f196da883-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="405" y="660" as="sourcePoint" />
+            <mxPoint x="-85" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mNHMmP-ql1NOhLnxiosb-170" value="完成初始校正" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mNHMmP-ql1NOhLnxiosb-169">
+          <mxGeometry x="0.1918" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -100,7 +196,7 @@
         </mxCell>
         <mxCell id="mNHMmP-ql1NOhLnxiosb-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="77e6c97f196da883-5">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="89.5" y="670" as="targetPoint" />
+            <mxPoint x="90" y="790" as="targetPoint" />
             <mxPoint x="89.5" y="120" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="89.5" y="660" />
@@ -110,8 +206,8 @@
         </mxCell>
         <mxCell id="mNHMmP-ql1NOhLnxiosb-106" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="77e6c97f196da883-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-70" y="250" as="sourcePoint" />
-            <mxPoint x="90" y="250" as="targetPoint" />
+            <mxPoint x="-80" y="260" as="sourcePoint" />
+            <mxPoint x="80" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="mNHMmP-ql1NOhLnxiosb-107" value="硬件打屏" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mNHMmP-ql1NOhLnxiosb-106">
@@ -127,7 +223,7 @@
         </mxCell>
         <mxCell id="mNHMmP-ql1NOhLnxiosb-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="77e6c97f196da883-6">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="89.5" y="670" as="targetPoint" />
+            <mxPoint x="90" y="800" as="targetPoint" />
             <mxPoint x="89.5" y="120" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="89.5" y="660" />
@@ -146,11 +242,24 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="77e6c97f196da883-7" value="Lane 6" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry x="800" y="20" width="160" height="730" as="geometry" />
+        <mxCell id="mNHMmP-ql1NOhLnxiosb-166" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="77e6c97f196da883-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-70" y="640" as="sourcePoint" />
+            <mxPoint x="90" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mNHMmP-ql1NOhLnxiosb-167" value="&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mNHMmP-ql1NOhLnxiosb-166">
+          <mxGeometry x="-0.4125" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mNHMmP-ql1NOhLnxiosb-168" value="校正" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mNHMmP-ql1NOhLnxiosb-166">
+          <mxGeometry x="-0.1625" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="mNHMmP-ql1NOhLnxiosb-62" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="280" y="-50" width="30" height="60" as="geometry" />
+          <mxGeometry x="280" y="-130" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mNHMmP-ql1NOhLnxiosb-68" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mNHMmP-ql1NOhLnxiosb-62" target="77e6c97f196da883-8">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -177,20 +286,17 @@
         <mxCell id="mNHMmP-ql1NOhLnxiosb-117" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="310" y="400" as="sourcePoint" />
-            <mxPoint x="310" y="500" as="targetPoint" />
+            <mxPoint x="310" y="490" as="targetPoint" />
             <Array as="points">
               <mxPoint x="340" y="400" />
-              <mxPoint x="340" y="500" />
+              <mxPoint x="340" y="490" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="mNHMmP-ql1NOhLnxiosb-118" value="打屏符合预期&lt;br&gt;开始拍照" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mNHMmP-ql1NOhLnxiosb-117">
-          <mxGeometry x="-0.0625" y="2" relative="1" as="geometry">
+        <mxCell id="mNHMmP-ql1NOhLnxiosb-141" value="打屏符合预期&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;拍出有效照片" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mNHMmP-ql1NOhLnxiosb-117">
+          <mxGeometry x="0.04" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="mNHMmP-ql1NOhLnxiosb-126" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=none;routingCenterX=-0.5;" vertex="1" parent="1">
-          <mxGeometry x="490" y="380" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mNHMmP-ql1NOhLnxiosb-129" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -220,6 +326,43 @@
         </mxCell>
         <mxCell id="mNHMmP-ql1NOhLnxiosb-135" value="生成" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mNHMmP-ql1NOhLnxiosb-134">
           <mxGeometry x="-0.0625" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mNHMmP-ql1NOhLnxiosb-142" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1230" y="520" as="sourcePoint" />
+            <mxPoint x="1060" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mNHMmP-ql1NOhLnxiosb-143" value="打屏在LED上显示成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mNHMmP-ql1NOhLnxiosb-142">
+          <mxGeometry x="0.1918" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mNHMmP-ql1NOhLnxiosb-160" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1060" y="570" as="sourcePoint" />
+            <mxPoint x="1220" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mNHMmP-ql1NOhLnxiosb-161" value="硬件打屏" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mNHMmP-ql1NOhLnxiosb-160">
+          <mxGeometry x="-0.4125" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mNHMmP-ql1NOhLnxiosb-173" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1090" y="620" as="sourcePoint" />
+            <mxPoint x="1090" y="710" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1120" y="620" />
+              <mxPoint x="1120" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mNHMmP-ql1NOhLnxiosb-174" value="打屏符合预期&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;拍出有效照片" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mNHMmP-ql1NOhLnxiosb-173">
+          <mxGeometry x="0.04" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
